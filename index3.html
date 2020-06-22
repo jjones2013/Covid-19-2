@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bootstrap</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  
+  <div class="container sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="../Images/B.jpg" alt="Jodie" class="rounded"></span></a>
+    <button class="navbar-toggler border border-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            What We Organize
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Closets</a>
+            <a class="dropdown-item" href="#">Rooms</a>
+            <a class="dropdown-item" href="#">Garages</a>
+            <a class="dropdown-item" href="#">Records</a>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  </div>
+  
+  
+  <body>
+
+
+    <!-- jumbotron-->
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-3">The Novel Corona Virus&mdash;An enemy on the loose!</h1>
+        <img src="../bootstrap/images/corona_1c.jpg" width="auto" width="auto"/>
+
+        <p class="lead">Expert Organizer</p>
+
+        <hr class="my-4" />
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          nihil quis debitis error laboriosam voluptatum nulla vel dolorum
+          deserunt dignissimos expedita possimus libero sapiente similique
+          velit, nesciunt at explicabo ducimus.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem 
+          ex a sunt magnam ducimus, animi voluptatum excepturi modi praesentium 
+          nulla quo sapiente, nobis architecto ab quam dolorem? Dolor, ea 
+          doloremque.
+        </p>
+
+        <a href="#" class="btn btn-info" >Learn More</a>
+
+        <!-- dropdowns -->
+
+      <div class="btn-group ">
+
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown</button>
+
+          <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute;" will-change:transform; top: 0px; left: 0px; transform:
+            translate3d(0px, 38px, 0px);>
+            <a href="#" class="dropdown-item">Home</a> 
+            <a href="#" class="dropdown-item">Shop</a>
+            <a href="#" class="dropdown-item">Cart</a>
+            <a href="#" class="dropdown-item">Checkout</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <!-- form -->
+
+    <div class="container alert alert-none">
+      <form action="#">
+
+        <div class="form-group">
+
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="email" required class="form-control">
+          <br>
+          <label for="email">Username</label>
+          <input type="email" name="username" placeholder="username" required class="form-control">
+          <br>
+          <label for="password1">Password1</label>
+          <input type="password" name="password1" required class="form-control">
+          <br>
+          <label for="password2">Password2</label>
+          <input type="password" name="password2" required class="form-control">
+
+        </div>
+        <a href="#" class="btn btn-outline-success float-right">Submit</a><br>
+
+      </form>
+    </div>
+      
+    </div>
+    <br>
+
+
+    <div class="container alert alert-secondary">
+      <h2>Click Here to See Some of My Work</h2>
+      
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal Showroom</button>
+    
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+              <p>Luuk pon dis ya room ya.</p>
+              <div class="container">
+                <img src="../Images/Presidential Suite 5.jpg" width="435" height="auto">
+              </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    
+
+
+    <div class="container"><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi 
+      ducimus deserunt quis corrupti iure? Molestias id in provident 
+      cum architecto itaque sed ab eum corporis aspernatur, et aliquam 
+      nostrum vel?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Magnam eum architecto reprehenderit voluptas beatae magni nemo 
+      expedita repellat, quod culpa saepe id, quisquam voluptate aperiam 
+      provident cumque deleniti incidunt vitae.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius 
+      suscipit, reiciendis maxime molestias harum libero illum nobis, 
+      alias ut quis excepturi vel. Aperiam amet, illo quos autem voluptate 
+      asperiores quis. Lorem ipsum dolor sit, amet consectetur adipisicing 
+      elit. Natus esse quaerat ad doloremque fuga, voluptas autem 
+      repudiandae nisi, temporibus doloribus vel placeat asperiores porro 
+      praesentium iusto. Facere facilis nam cumque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore 
+      numquam quidem consectetur! Harum aliquid iure optio, natus, 
+      debitis at dicta iusto corrupti temporibus possimus reiciendis, 
+      sit hic blanditiis tempora id. Lorem ipsum dolor sit amet consectetur 
+      adipisicing elit. Consequuntur iusto obcaecati quam eos maiores 
+      placeat cum sed amet quaerat similique quisquam eaque, a sequi, 
+      doloremque ducimus totam harum velit unde!</p>
+    </div>
+
+  </body>
+  <br>
+  <footer>&copy;Copyright | Waak Guud Productions&trade; | All Rights Reserved</footer>
+
+
+
+
+
+
+</html>

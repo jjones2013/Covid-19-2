@@ -1,6 +1,6 @@
-.jumbotron {
+/* .jumbotron {
   background-color: ;
-}
+} */
 
 .display-6,
 h2 {
@@ -10,10 +10,10 @@ h2 {
 .btn {
   background-color: maroon;
 }
-
+/* 
 .lead {
   color: ;
-}
+} */
 
 .inform {
   font-size: smaller;
@@ -29,6 +29,12 @@ h2 {
     display: block;
     margin-top: 10px;
     margin-left: 3%;
+  }
+} */
+
+/* @media (max-width: 1200px) {
+  .nav-link_1 {
+    margin-left: -212px;
   }
 } */
 
@@ -57,6 +63,10 @@ h2 {
     max-width: 400px;
     font-size: 10pt;
   }
+}
+
+.icon_foot {
+  float: left;
 }
 
 /* @media (max-width: 576px) {
@@ -107,11 +117,32 @@ h2 {
   }
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1400px) {
   .icon,
   .icon_1 {
     display: none;
   }
+}
+
+@media (min-width: 1400px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: none;
+    background-color: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: inline-block;
+  }
+}
+
+.unit_one {
+  display: inline-block;
 }
 
 /* Extra large devices (large desktops, 1200px and up)

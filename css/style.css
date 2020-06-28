@@ -67,8 +67,8 @@ h2 {
 
 .icon_foot {
   float: left;
-  /* background-color: orange; */
   text-align: center;
+  padding-top: 15px;
 }
 
 /* @media (max-width: 576px) {
@@ -89,6 +89,8 @@ h2 {
 @media (max-width: 577px) {
   .info {
     font-size: 9pt;
+    width: 350px;
+    /* margin-left: 100px; */
   }
 }
 
@@ -149,6 +151,13 @@ h2 {
 
 .unit_one {
   display: inline-block;
+  margin-left: -60px;
+}
+
+@media (min-width: 1200px) {
+  .info {
+    margin-left: 55px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)

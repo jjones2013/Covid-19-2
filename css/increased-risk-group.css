@@ -22,3 +22,143 @@ h2 {
 .watch {
   color: maroon;
 }
+
+/* @media (max-width: 480px) {
+  .btn,
+  .info {
+    display: block;
+    margin-top: 10px;
+    margin-left: 3%;
+  }
+} */
+
+/* @media (max-width: 1200px) {
+  .nav-link_1 {
+    margin-left: -212px;
+  }
+} */
+
+@media (max-width: 576px) {
+  .btn,
+  .info {
+    display: block;
+    margin-top: 5px;
+    margin-left: 5%;
+    /* font-size: 8pt; */
+  }
+}
+
+/* @media (max-width: 576px) {
+  .btn {
+    font-size: 8pt;
+  }
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 577px) {
+  .btn {
+    display: block;
+    margin-top: 8px;
+    margin-left: 8%;
+    max-width: 400px;
+    font-size: 10pt;
+  }
+}
+
+.icon_foot {
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* @media (max-width: 576px) {
+  .info a {
+    font-size: 8pt;
+  }
+} */
+
+/* @media (min-width: 578px) {
+  .btn {
+    display: block;
+    margin-top: 10px;
+    margin-left: 18%;
+    max-width: 450px;
+  }
+} */
+
+@media (max-width: 577px) {
+  .info {
+    font-size: 9pt;
+    width: 350px;
+    /* margin-left: 100px; */
+  }
+}
+
+@media (max-width: 800px) {
+  .title,
+  .watch {
+    font-size: 15pt;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 578px) {
+  .btn {
+    display: block;
+    margin-top: 10px;
+    margin-left: 15%;
+    max-width: 450px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) {
+  .btn {
+    /* display: block; */
+    margin-top: 10px;
+    margin-left: 25%;
+    max-width: 450px;
+  }
+}
+
+.helpful {
+  text-align: center;
+}
+
+@media (max-width: 1400px) {
+  .icon,
+  .icon_1 {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: none;
+    background-color: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: inline-block;
+  }
+}
+
+.unit_one {
+  display: inline-block;
+  margin-left: -60px;
+}
+
+@media (min-width: 1200px) {
+  .info {
+    margin-left: 55px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */

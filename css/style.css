@@ -19,6 +19,10 @@ h2 {
   font-size: smaller;
 }
 
+.nav-item {
+  font-weight: bold;
+}
+
 .watch {
   color: maroon;
 }

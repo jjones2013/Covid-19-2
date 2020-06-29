@@ -7,6 +7,10 @@ h2 {
   color: maroon;
 }
 
+.nav-item {
+  font-weight: bold;
+}
+
 .btn {
   background-color: maroon;
 }

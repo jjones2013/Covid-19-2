@@ -1,0 +1,35 @@
+.nav-item {
+  font-weight: bold;
+}
+
+/* img {
+  margin-left: -32px;
+} */
+
+.container-two {
+  max-width: 500px;
+}
+
+@media (max-width: 1400px) {
+  .icon,
+  .icon_1 {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: none;
+    background-color: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: inline-block;
+  }
+}

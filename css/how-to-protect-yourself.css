@@ -9,6 +9,7 @@
 #intro {
   font-weight: normal;
   font-size: large;
+  line-height: 1.7;
 }
 
 .responsive {
@@ -26,9 +27,6 @@ p {
   line-height: 1.7;
 }
 
-#scripture {
-}
-
 .container-two {
   display: flex;
 }
@@ -41,6 +39,10 @@ p {
   flex: 1;
   margin-left: 40px;
   /* background-color: white; */
+}
+
+.column-two p {
+  font-size: smaller;
 }
 
 #ast {
@@ -93,3 +95,73 @@ p {
     display: inline-block;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+#btt {
+  /* display: inline-block; */
+  color: black;
+  text-align: right;
+  font-size: smaller;
+}
+
+#btt a {
+  color: black;
+}
+
+span {
+  font-size: 20pt;
+  color: black;
+}
+
+.icon_foot {
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+}
+
+@media (max-width: 1400px) {
+  .icon,
+  .icon_1 {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: none;
+    background-color: none;
+  }
+}
+
+@media (max-width: 1399px) {
+  .icon_2,
+  .icon_3,
+  .icon_4 {
+    display: inline-block;
+  }
+}
+
+.unit_one {
+  display: inline-block;
+  margin-left: -60px;
+}
+
+@media (min-width: 1200px) {
+  .info {
+    margin-left: 55px;
+  }
+}
+
+/* .hide {
+  display: none;
+}
+
+#scripture:hover + .hide {
+  display: block;
+  color: red;
+} */

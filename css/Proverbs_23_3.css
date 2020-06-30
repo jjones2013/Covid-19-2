@@ -1,0 +1,37 @@
+html {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  line-height: 1.8;
+  font-size: 28pt;
+  /* border-bottom: 2px solid white; */
+}
+
+span {
+  border-bottom: 2px solid white;
+  border-bottom-width: ;
+}
+
+body {
+  background-color: black;
+}
+
+p,
+a {
+  width: 800px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}

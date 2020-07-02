@@ -42,6 +42,18 @@ p {
   /* background-color: white; */
 }
 
+#up {
+  display: block;
+  text-align: center;
+  font-size: small;
+}
+
+@media (min-width: 992px) {
+  #up {
+    display: none;
+  }
+}
+
 @media (max-width: 992px) {
   .container-two {
     flex-direction: column;
@@ -52,24 +64,12 @@ p {
   }
 }
 
-@media (max-width: 992px) {
-  #btt-2 #up {
-    display: block;
-    color: black;
-    text-align: center;
-    font-size: smaller;
-  }
-  /* #top span {
-    font-size: small;
-  } */
-}
-
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   #btt-2 {
-    display: block;
+    display: none;
     font-size: 10pt;
   }
-}
+} */
 
 .column-two p {
   font-size: smaller;

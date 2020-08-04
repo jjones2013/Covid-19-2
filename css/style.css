@@ -101,7 +101,7 @@ h2 {
 @media (max-width: 800px) {
   .title,
   .watch {
-    /* font-size: 15pt; */
+    font-size: 15pt;
   }
 }
 
